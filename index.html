@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PurpGo - 法律文档</title>
+    <title>PurpGo - Legal Documents</title>
     <style>
         :root {
             --primary: #5B8FF9;
@@ -18,7 +18,7 @@
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             background: var(--bg);
             color: var(--text-primary);
             line-height: 1.6;
@@ -133,19 +133,19 @@
             color: var(--primary);
         }
         [lang] { display: none; }
-        body.lang-zh [lang="zh"] { display: block; }
-        body.lang-en [lang="en"] { display: block; }
+        body.show-zh [lang="zh"] { display: block; }
+        body.show-en [lang="en"] { display: block; }
         @media (max-width: 600px) {
             .content-card { padding: 20px; }
         }
     </style>
 </head>
-<body class="lang-zh">
+<body class="show-zh">
     <header>
-        <div class="logo">PurpGo <span>法律文档</span></div>
+        <div class="logo">PurpGo</div>
         <div class="lang-switch">
-            <button class="lang-btn active" onclick="switchLang('zh')">中文</button>
-            <button class="lang-btn" onclick="switchLang('en')">English</button>
+            <button class="lang-btn active" onclick="setLang('zh')">中文</button>
+            <button class="lang-btn" onclick="setLang('en')">English</button>
         </div>
     </header>
 
@@ -155,204 +155,173 @@
             <div class="tab" onclick="switchTab('privacy')"><span lang="zh">隐私政策</span><span lang="en">Privacy Policy</span></div>
         </div>
 
-        <!-- 用户协议内容 -->
+        <!-- 用户协议 -->
         <div id="terms-content" class="content-card">
             <div class="content-title" lang="zh">PurpGo 用户协议</div>
             <div class="content-title" lang="en">PurpGo Terms of Service</div>
-            <div class="meta-date" lang="zh">更新日期：2026 年 05 月 02 日 · 生效日期：2026 年 05 月 02 日</div>
-            <div class="meta-date" lang="en">Updated: May 02, 2026 · Effective: May 02, 2026</div>
-            <div class="desc" lang="zh">请您仔细阅读本协议，使用 PurpGo 即表示您已充分理解并同意全部条款。</div>
-            <div class="desc" lang="en">Please read this agreement carefully. By using PurpGo, you acknowledge that you have fully understood and agree to all terms.</div>
-
+            <div class="meta-date" lang="zh">生效日期：2026年5月2日 · 最后更新：2026年5月2日</div>
+            <div class="meta-date" lang="en">Effective: May 2, 2026 · Last Updated: May 2, 2026</div>
+            <div class="desc" lang="zh">一旦您使用 PurpGo，即视为您已阅读并同意本协议全部条款。若不同意，请停止使用并卸载。</div>
+            <div class="desc" lang="en">By using PurpGo, you agree to all terms of this agreement. If you do not agree, please stop using and uninstall the app.</div>
+            
+            <!-- 以下逐章节对照，仅展示部分示例，完整内容请按同样格式补全 -->
             <div class="section">
-                <div class="section-title" lang="zh">一、关于本协议</div>
-                <div class="section-title" lang="en">I. About This Agreement</div>
-                <div class="section-body" lang="zh">本协议是您与 PurpGo 开发者（何凌云）之间关于使用本应用服务的法律协议。下载、安装或使用本应用即表示您已阅读并同意本协议所有条款。若不同意，请勿使用本应用。</div>
-                <div class="section-body" lang="en">This agreement is a legal agreement between you and the developer of PurpGo (He Lingyun) regarding the use of the App. By downloading, installing or using the App, you indicate that you have read and agree to all terms of this agreement. If you do not agree, please do not use the App.</div>
+                <div class="section-title" lang="zh">一、服务内容</div>
+                <div class="section-title" lang="en">1. Service Description</div>
+                <div class="section-body" lang="zh">本软件是一款面向个人的语音待办事项管理工具，主要提供语音创建任务、待办管理、提醒、重复任务、日历视图、数据导出/导入等功能。本软件完全免费，不含内购或订阅。</div>
+                <div class="section-body" lang="en">PurpGo is a personal voice-based task manager, providing voice task creation, task management, reminders, recurring tasks, calendar view, data export/import, and more. The app is completely free with no in-app purchases or subscriptions.</div>
             </div>
 
             <div class="section">
                 <div class="section-title" lang="zh">二、使用规则</div>
-                <div class="section-title" lang="en">II. Usage Rules</div>
-                <div class="section-body" lang="zh">1. 您承诺仅将本应用用于个人待办事项管理，不得用于任何违法或侵害他人权益的活动。
-2. 您不得对应用进行反向工程、修改、破解或利用漏洞进行任何不当操作。
-3. 您应妥善保管自己的设备及应用数据，开发者不对因设备丢失、数据导出不当导致的隐私泄露承担责任。</div>
-                <div class="section-body" lang="en">1. You undertake to use the App solely for personal task management and shall not engage in any illegal or rights-infringing activities.
-2. You shall not reverse engineer, modify, crack, or exploit any vulnerabilities of the App.
-3. You shall keep your device and App data properly safeguarded. The developer shall not be liable for any privacy leakage caused by device loss or improper data export.</div>
+                <div class="section-title" lang="en">2. Usage Rules</div>
+                <div class="section-body" lang="zh">您承诺仅将本软件用于个人任务管理，不得用于任何违法或侵害他人权益的活动。不得对本软件进行反向工程、修改、破解或利用漏洞。您应妥善保管自己的设备及导出的数据。</div>
+                <div class="section-body" lang="en">You undertake to use the App solely for personal task management and shall not engage in any illegal or rights-infringing activities. You shall not reverse engineer, modify, crack, or exploit any vulnerabilities of the App. You shall keep your device and exported data secure.</div>
             </div>
 
             <div class="section">
-                <div class="section-title" lang="zh">三、知识产权</div>
-                <div class="section-title" lang="en">III. Intellectual Property</div>
-                <div class="section-body" lang="zh">本应用（包括代码、界面设计、图标、文案等）的知识产权归开发者所有。未经书面许可，您不得复制、修改、传播或用于商业用途。</div>
-                <div class="section-body" lang="en">The intellectual property rights of the App (including code, interface design, icons, text, etc.) belong to the developer. Without written permission, you may not copy, modify, distribute, or use for commercial purposes.</div>
+                <div class="section-title" lang="zh">三、账号与数据</div>
+                <div class="section-title" lang="en">3. Account and Data</div>
+                <div class="section-body" lang="zh">本软件无需注册或登录，所有数据存储在您的设备本地。开发者无法访问或恢复您的数据。强烈建议您定期使用数据导出功能进行备份。卸载应用将永久清除所有本地数据。</div>
+                <div class="section-body" lang="en">PurpGo does not require registration or login. All data is stored locally on your device. The developer cannot access or recover your data. Regular backups using the data export feature are strongly recommended. Uninstalling the app will permanently delete all local data.</div>
             </div>
 
             <div class="section">
-                <div class="section-title" lang="zh">四、免责声明</div>
-                <div class="section-title" lang="en">IV. Disclaimer</div>
-                <div class="section-body" lang="zh">1. 本应用以"现状"提供，不保证完全无错误、无中断或满足您的所有需求。
-2. 因设备故障、系统更新、第三方服务（如语音识别）中断等不可抗力造成的任何损失，开发者不承担责任。
-3. 所有待办数据均存储在本地，开发者无法恢复您丢失的数据，请自行做好备份。</div>
-                <div class="section-body" lang="en">1. The App is provided "as is" without warranty of any kind, either express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, or non-infringement.
-2. The developer shall not be liable for any loss caused by force majeure, including but not limited to equipment failure, system update, or interruption of third-party services (such as speech recognition).
-3. All task data is stored locally. The developer cannot recover your lost data. Please make your own backups.</div>
+                <div class="section-title" lang="zh">四、隐私保护</div>
+                <div class="section-title" lang="en">4. Privacy Protection</div>
+                <div class="section-body" lang="zh">本人极度重视您的隐私。本软件对个人信息的处理完全遵循《PurpGo 隐私政策》，该政策为本协议不可分割的一部分。</div>
+                <div class="section-body" lang="en">Your privacy is highly respected. PurpGo's handling of personal information fully complies with the PurpGo Privacy Policy, which is an integral part of this agreement.</div>
             </div>
 
             <div class="section">
-                <div class="section-title" lang="zh">五、协议变更</div>
-                <div class="section-title" lang="en">V. Changes to Agreement</div>
-                <div class="section-body" lang="zh">开发者有权根据需要修改本协议，并在应用内更新。继续使用视为接受变更。若不同意变更，您应停止使用并卸载应用。</div>
-                <div class="section-body" lang="en">The developer reserves the right to modify this agreement as needed and update it within the App. Continued use constitutes acceptance of the changes. If you do not agree with the changes, you should stop using and uninstall the App.</div>
+                <div class="section-title" lang="zh">五、免责声明</div>
+                <div class="section-title" lang="en">5. Disclaimer</div>
+                <div class="section-body" lang="zh">本软件以“现状”提供，不保证功能完全无错误或满足所有需求。因设备故障、系统更新、第三方服务中断等造成的损失，开发者不承担责任。强提醒功能受系统省电策略影响，不保证100%触发。</div>
+                <div class="section-body" lang="en">The App is provided "as is" without warranty of any kind. The developer is not liable for any loss caused by equipment failure, system updates, or third-party service interruptions. The strong reminder (alarm) feature may be affected by system power-saving policies and is not guaranteed to trigger 100% of the time.</div>
             </div>
 
             <div class="section">
-                <div class="section-title" lang="zh">六、争议解决</div>
-                <div class="section-title" lang="en">VI. Dispute Resolution</div>
-                <div class="section-body" lang="zh">本协议适用中华人民共和国法律。因本协议产生的争议，双方应友好协商解决；协商不成的，提交开发者所在地有管辖权的法院裁决。</div>
-                <div class="section-body" lang="en">This agreement shall be governed by the laws of the People's Republic of China. Any dispute arising from this agreement shall be resolved through friendly negotiation; if negotiation fails, the dispute shall be submitted to the competent court in the developer's location.</div>
+                <div class="section-title" lang="zh">六、知识产权</div>
+                <div class="section-title" lang="en">6. Intellectual Property</div>
+                <div class="section-body" lang="zh">本软件及其所有内容的知识产权归开发者所有。未经书面许可，不得复制、修改、传播或用于商业用途。“PurpGo”为本人使用的应用名称，未经授权不得冒用。</div>
+                <div class="section-body" lang="en">The intellectual property rights of the App and all its content belong to the developer. Without written permission, you may not copy, modify, distribute, or use for commercial purposes. "PurpGo" is the app name used by the developer and may not be used without authorization.</div>
             </div>
 
             <div class="section">
-                <div class="section-title" lang="zh">七、联系方式</div>
-                <div class="section-title" lang="en">VII. Contact</div>
-                <div class="section-body" lang="zh">如有任何问题，请联系：
-                开发者：何凌云
-                邮箱：hlyaction@gmail.com</div>
-                <div class="section-body" lang="en">If you have any questions, please contact:
-                Developer: He Lingyun
-                Email: hlyaction@gmail.com</div>
+                <div class="section-title" lang="zh">七、协议变更</div>
+                <div class="section-title" lang="en">7. Changes to Agreement</div>
+                <div class="section-body" lang="zh">开发者有权在必要时修改本协议。更新后的协议将在应用内明显位置发布，继续使用视为接受。</div>
+                <div class="section-body" lang="en">The developer reserves the right to modify this agreement as needed. Updated versions will be prominently displayed within the App. Continued use constitutes acceptance of the changes.</div>
+            </div>
+
+            <div class="section">
+                <div class="section-title" lang="zh">八、法律适用与争议解决</div>
+                <div class="section-title" lang="en">8. Governing Law and Dispute Resolution</div>
+                <div class="section-body" lang="zh">本协议适用中华人民共和国法律。因本协议产生的争议，双方友好协商解决；协商不成的，提交开发者所在地有管辖权的人民法院裁决。</div>
+                <div class="section-body" lang="en">This agreement is governed by the laws of the People's Republic of China. Any dispute shall be resolved through friendly negotiation; if negotiation fails, the dispute shall be submitted to the competent court in the developer's location.</div>
+            </div>
+
+            <div class="section">
+                <div class="section-title" lang="zh">九、联系方式</div>
+                <div class="section-title" lang="en">9. Contact</div>
+                <div class="section-body" lang="zh">如有任何疑问，请联系：开发者：何凌云，邮箱：hlyaction@gmail.com</div>
+                <div class="section-body" lang="en">For any questions, please contact: Developer: He Lingyun, Email: hlyaction@gmail.com</div>
             </div>
         </div>
 
-        <!-- 隐私政策内容（默认隐藏） -->
+        <!-- 隐私政策（默认隐藏） -->
         <div id="privacy-content" class="content-card" style="display: none;">
             <div class="content-title" lang="zh">PurpGo 隐私政策</div>
             <div class="content-title" lang="en">PurpGo Privacy Policy</div>
-            <div class="meta-date" lang="zh">更新日期：2026 年 05 月 02 日 · 生效日期：2026 年 05 月 02 日</div>
-            <div class="meta-date" lang="en">Updated: May 02, 2026 · Effective: May 02, 2026</div>
-            <div class="desc" lang="zh">欢迎使用 PurpGo。我们深知个人信息对您的重要性，并会尽力保护您的隐私。本政策将说明我们如何处理您的数据。</div>
-            <div class="desc" lang="en">Welcome to PurpGo. We deeply understand the importance of personal information and are committed to protecting your privacy. This policy explains how we handle your data.</div>
+            <div class="meta-date" lang="zh">生效日期：2026年5月2日 · 最后更新：2026年5月2日</div>
+            <div class="meta-date" lang="en">Effective: May 2, 2026 · Last Updated: May 2, 2026</div>
+            <div class="desc" lang="zh">本软件采用完全本地化存储，本人不收集、不上传您的任何个人数据或待办内容。</div>
+            <div class="desc" lang="en">PurpGo stores all data locally on your device. The developer does not collect or upload any personal data or task content.</div>
 
             <div class="section">
                 <div class="section-title" lang="zh">一、我们收集的信息</div>
-                <div class="section-title" lang="en">I. Information We Collect</div>
-                <div class="section-body" lang="zh">PurpGo 是一款语音待办事项管理应用，我们充分尊重您的隐私。
-
-1. 当您使用语音输入功能时，应用会请求麦克风权限。音频由 Apple 语音识别服务处理，仅用于将语音转为文字并创建待办，我们不会存储或上传任何语音文件。
-
-2. 当您设置提醒时，应用会请求通知权限，以便在指定时间发送提醒。通知仅由系统本地触发，不涉及任何个人信息的收集。
-
-3. 所有待办事项、设置、偏好等数据均存储在您的设备本地，我们不会收集、上传或备份这些数据至任何云端服务器。
-
-4. 当您使用"分享日志"功能时，应用会读取本地日志文件并交由系统分享，我们不会获取这些文件的内容。</div>
-                <div class="section-body" lang="en">PurpGo is a voice task management app that fully respects your privacy.
-
-1. When using voice input, the app requests microphone permission. Audio is processed by Apple's speech recognition service solely for transcribing speech to text and creating tasks. We do not store or upload any audio files.
-
-2. When setting reminders, the app requests notification permission to send timely alerts. Notifications are triggered locally by the system and involve no collection of personal information.
-
-3. All tasks, settings, preferences, and other data are stored locally on your device. We do not collect, upload, or backup this data to any cloud server.
-
-4. When using the "Share Logs" feature, the app reads local log files and hands them over to the system share sheet; we do not access the content of these files.</div>
+                <div class="section-title" lang="en">1. Information We Collect</div>
+                <div class="section-body" lang="zh">本软件仅在必要时使用设备权限，不会收集或上传任何个人数据：麦克风权限仅用于语音转文字，音频由 Apple 处理，本人不存储语音文件。通知权限用于发送提醒，触发于本地。所有待办、设置、偏好等数据均存储在您的设备本地。日志文件仅记录运行状态，需您主动分享，本人不会自动获取。</div>
+                <div class="section-body" lang="en">PurpGo uses device permissions only when necessary and does not collect or upload any personal data: Microphone is used only for speech-to-text; audio is processed by Apple and no voice files are stored. Notifications are used for reminders and are triggered locally. All tasks, settings, and preferences are stored locally on your device. Log files record only technical status and are shared only by your initiative; the developer does not automatically access them.</div>
             </div>
 
             <div class="section">
                 <div class="section-title" lang="zh">二、信息的使用</div>
-                <div class="section-title" lang="en">II. Use of Information</div>
-                <div class="section-body" lang="zh">我们仅将上述权限及数据用于实现应用核心功能：
-                • 麦克风：用于语音转文字，创建待办内容。
-                • 通知：用于提醒您按时完成待办事项。
-                • 本地存储：用于保存您的所有数据，确保离线可用。
-
-                我们不会将您的任何数据用于商业目的、用户画像或广告投放。</div>
-                <div class="section-body" lang="en">We use the permissions and data solely for core functionality:
-                • Microphone: converting speech to text for task creation.
-                • Notifications: reminding you of pending tasks.
-                • Local storage: saving all your data for offline use.
-
-                We do not use any of your data for commercial purposes, user profiling, or advertising.</div>
+                <div class="section-title" lang="en">2. Use of Information</div>
+                <div class="section-body" lang="zh">上述权限仅用于实现核心功能，不会用于商业目的、用户画像或广告投放。</div>
+                <div class="section-body" lang="en">The above permissions are used solely for core functionality and are not used for commercial purposes, user profiling, or advertising.</div>
             </div>
 
             <div class="section">
-                <div class="section-title" lang="zh">三、信息的存储与安全</div>
-                <div class="section-title" lang="en">III. Storage and Security</div>
-                <div class="section-body" lang="zh">您的所有数据仅存储在您的设备中，我们无法远程访问。我们建议您妥善保管设备，启用设备加密及锁屏密码以保护数据安全。
-
-                应用内含有数据导出/导入功能，导出后的文件由您自行保管，我们不对导出文件的安全性负责。</div>
-                <div class="section-body" lang="en">All your data is stored solely on your device; we cannot access it remotely. We recommend keeping your device secure, enabling device encryption and a lock screen passcode.
-
-                The app provides data export/import features. Exported files are under your own custody, and we are not responsible for their security.</div>
+                <div class="section-title" lang="zh">三、数据的存储与安全</div>
+                <div class="section-title" lang="en">3. Data Storage and Security</div>
+                <div class="section-body" lang="zh">所有数据仅存储在您的设备本地，本人无法远程访问。建议您为手机设置强密码并启用设备加密。应用提供数据导出/导入功能，导出文件由您自行保管。</div>
+                <div class="section-body" lang="en">All data is stored solely on your device; the developer cannot access it remotely. It is recommended to set a strong device password and enable encryption. The app provides data export/import features; exported files are your responsibility to keep secure.</div>
             </div>
 
             <div class="section">
                 <div class="section-title" lang="zh">四、第三方服务</div>
-                <div class="section-title" lang="en">IV. Third‑Party Services</div>
-                <div class="section-body" lang="zh">本应用接入了 Apple 语音识别框架，受 Apple 隐私政策约束。我们不会共享您的个人信息给任何第三方分析和广告服务。
-
-                应用不含任何第三方数据统计、广告或追踪代码。</div>
-                <div class="section-body" lang="en">This app integrates Apple's speech recognition framework, which is governed by Apple's privacy policy. We do not share your personal information with any third-party analytics or advertising services.
-
-                The app contains no third-party analytics, advertising, or tracking code.</div>
+                <div class="section-title" lang="en">4. Third-Party Services</div>
+                <div class="section-body" lang="zh">本软件接入 Apple 语音识别框架，受 Apple 隐私政策约束。除此之外，不含任何第三方分析、广告或追踪代码。</div>
+                <div class="section-body" lang="en">PurpGo integrates Apple's speech recognition framework, which is governed by Apple's privacy policy. The app contains no third-party analytics, advertising, or tracking code.</div>
             </div>
 
             <div class="section">
                 <div class="section-title" lang="zh">五、儿童隐私</div>
-                <div class="section-title" lang="en">V. Children's Privacy</div>
-                <div class="section-body" lang="zh">我们不会故意收集 13 周岁以下儿童的个人信息。如果您是监护人且发现儿童向我们提供了信息，请通过邮箱联系我们删除。</div>
-                <div class="section-body" lang="en">We do not knowingly collect personal information from children under 13. If you are a guardian and discover that a child has provided us with information, please contact us via email to have it deleted.</div>
+                <div class="section-title" lang="en">5. Children's Privacy</div>
+                <div class="section-body" lang="zh">我们不会故意收集 13 周岁以下儿童的个人信息。若监护人发现儿童提供了信息，请通过邮箱联系我们删除。</div>
+                <div class="section-body" lang="en">We do not knowingly collect personal information from children under 13. If a guardian discovers that a child has provided information, please contact us via email to have it deleted.</div>
             </div>
 
             <div class="section">
                 <div class="section-title" lang="zh">六、政策更新</div>
-                <div class="section-title" lang="en">VI. Policy Updates</div>
-                <div class="section-body" lang="zh">我们可能会在需要时更新本隐私政策。更新后会在应用内醒目位置通知您，请您定期查阅。</div>
-                <div class="section-body" lang="en">We may update this privacy policy as needed. Any changes will be prominently notified within the app, so please check back periodically.</div>
+                <div class="section-title" lang="en">6. Policy Updates</div>
+                <div class="section-body" lang="zh">本政策可能适时更新，重大变更将在应用内醒目通知。继续使用即视为同意更新后的政策。</div>
+                <div class="section-body" lang="en">This policy may be updated from time to time. Significant changes will be notified prominently within the app. Continued use constitutes acceptance of the updated policy.</div>
             </div>
 
             <div class="section">
                 <div class="section-title" lang="zh">七、联系方式</div>
-                <div class="section-title" lang="en">VII. Contact</div>
-                <div class="section-body" lang="zh">若您对本隐私政策有任何疑问或建议，请联系：
-                开发者：何凌云
-                邮箱：hlyaction@gmail.com</div>
-                <div class="section-body" lang="en">If you have any questions or suggestions about this privacy policy, please contact:
-                Developer: He Lingyun
-                Email: hlyaction@gmail.com</div>
+                <div class="section-title" lang="en">7. Contact</div>
+                <div class="section-body" lang="zh">如有任何疑问，请联系：开发者：何凌云，邮箱：hlyaction@gmail.com</div>
+                <div class="section-body" lang="en">For any questions, please contact: Developer: He Lingyun, Email: hlyaction@gmail.com</div>
             </div>
         </div>
     </div>
 
     <footer>
-        <p>PurpGo © 2026 · 开发者：<span class="name">何凌云</span> · 联系方式：<a href="mailto:hlyaction@gmail.com">hlyaction@gmail.com</a></p>
+        <p>PurpGo © 2026 · <span lang="zh">开发者：</span><span class="name">何凌云</span> · <span lang="zh">联系方式：</span><a href="mailto:hlyaction@gmail.com">hlyaction@gmail.com</a></p>
     </footer>
 
     <script>
-        function switchLang(lang) {
-            document.body.className = 'lang-' + lang;
-            document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
-            document.querySelector(`.lang-btn:contains('${lang === 'zh' ? '中文' : 'English'}')`).classList.add('active');
-            // 修正按钮文本选择
-            const buttons = document.querySelectorAll('.lang-btn');
-            buttons[0].classList.toggle('active', lang === 'zh');
-            buttons[1].classList.toggle('active', lang === 'en');
+        // 自动检测浏览器语言，设置默认语言
+        (function() {
+            const userLang = navigator.language || navigator.userLanguage;
+            const lang = userLang.startsWith('zh') ? 'zh' : 'en';
+            setLang(lang, true);
+        })();
+
+        function setLang(lang, isAuto = false) {
+            document.body.className = 'show-' + lang;
+            // 更新按钮状态
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            if (lang === 'zh') {
+                document.querySelector('.lang-btn:first-child').classList.add('active');
+            } else {
+                document.querySelector('.lang-btn:last-child').classList.add('active');
+            }
         }
 
         function switchTab(tab) {
-            const terms = document.getElementById('terms-content');
-            const privacy = document.getElementById('privacy-content');
-            const tabs = document.querySelectorAll('.tab');
+            document.getElementById('terms-content').style.display = tab === 'terms' ? 'block' : 'none';
+            document.getElementById('privacy-content').style.display = tab === 'privacy' ? 'block' : 'none';
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
             if (tab === 'terms') {
-                terms.style.display = 'block';
-                privacy.style.display = 'none';
-                tabs[0].classList.add('active');
-                tabs[1].classList.remove('active');
+                document.querySelector('.tab:first-child').classList.add('active');
             } else {
-                terms.style.display = 'none';
-                privacy.style.display = 'block';
-                tabs[1].classList.add('active');
-                tabs[0].classList.remove('active');
+                document.querySelector('.tab:last-child').classList.add('active');
             }
         }
     </script>
