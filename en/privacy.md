@@ -1,36 +1,63 @@
 # PurpGo Privacy Policy
 
-**Effective Date:** May 2, 2026  
+**Effective Date:** May 5, 2026  
 **Developer:** He Lingyun  
 **Contact:** hlyaction@gmail.com
 
 ### Introduction
-PurpGo stores all data locally. The developer does not collect or upload any personal data.
+PurpGo is a personal voice-powered todo management app. We put your privacy first. This app uses fully local storage; the developer does not collect or upload any personal data. This Privacy Policy explains how we handle your information.
 
 ### 1. Information We Collect
-- **Microphone**: Used only for speech-to-text. Audio processed by Apple, not stored.
-- **Notifications**: Used for reminders, triggered locally.
-- **Local Storage**: All tasks, settings, and preferences stay on your device.
-- **Logs**: Only technical status. Shared only when you explicitly choose to.
 
-### 2. Use of Information
-Permissions are used solely for core functionality. No commercial use, profiling, or advertising.
+**1.1 Microphone Permission**
+- Used for the voice-to-text feature to help you quickly create tasks.
+- Audio recognition is processed by Apple’s system-level Speech framework. This app does not store or upload any audio files.
+- You can disable this permission anytime in your device’s Settings > Privacy > Microphone.
+
+**1.2 Notification Permission**
+- Used to trigger task reminder notifications locally on your device.
+- All reminders are calculated and triggered entirely on your device and are never uploaded to any server.
+
+**1.3 Local Storage**
+- All your tasks, calendar data, tags, settings, preferences, theme selections, etc., are stored solely on your device.
+- The developer cannot remotely access, view, or retrieve any of your data.
+
+**1.4 Log Information**
+- The app records run-time logs locally for troubleshooting purposes.
+- Logs are never uploaded automatically. They are sent only when you actively share them via the “Me” page, and only to the recipient you specify or the developer. You may review the log content before deciding to share it.
+
+**1.5 Subscription Information**
+- PurpGo Pro subscriptions are processed by the Apple App Store, in accordance with Apple’s privacy policies and payment security standards.
+- The developer receives only an anonymous verification of your subscription status (active/expired). The developer never obtains your name, payment method, credit card number, or specific transaction records.
+- Subscription status is used exclusively to unlock Pro features and for no other purpose.
+
+### 2. How We Use Information
+All permissions and data described above are used solely to provide PurpGo’s core functionality. We do not use any information for commercial purposes, user profiling, or advertising.
 
 ### 3. Data Storage and Security
-All data is stored locally. Developer cannot access it. Enable device encryption and use a strong password. Exported files are your responsibility.
+- All data is stored only locally on your device, protected by iOS’s sandbox mechanism.
+- We recommend enabling device passcode, Touch ID, or Face ID, and regularly backing up your device via iTunes or iCloud.
+- Exported data files are your responsibility. Please ensure the security of files during transfer and storage.
+- Uninstalling the app will permanently delete all locally stored data, with no possibility of recovery.
 
 ### 4. Third-Party Services
-Only integrates Apple Speech Recognition framework, governed by Apple's privacy policy. No other tracking or ads.
+This app integrates the following third-party services:
+- **Apple Speech Framework**: Used to provide speech-to-text functionality, subject to Apple’s privacy policy. Audio processing may occur on-device or on Apple’s servers, depending on system configuration.
+- **Apple In-App Purchase (StoreKit)**: Used to process Pro subscription purchases and validation, subject to Apple’s privacy policy and the Apple Media Services Terms and Conditions.
 
-### 5. Children's Privacy
-We do not knowingly collect data from children under 13.
+This app does not integrate any third-party analytics tools, advertising SDKs, or user tracking services.
+
+### 5. Children’s Privacy
+We do not knowingly collect personal information from children under 13. If you are a guardian and discover that a child has provided information without consent, please contact us so we can delete it.
 
 ### 6. Policy Updates
-Changes will be notified in-app. Continued use means acceptance.
+We may update this Privacy Policy from time to time. When we do, we will notify you prominently within the app. Your continued use of the app after any changes constitutes your acceptance of the updated policy.
 
-### 7. Contact
-For questions, contact:  
-**Email: hlyaction@gmail.com**
+### 7. Contact Us
+If you have any questions, comments, or suggestions regarding this Privacy Policy, please contact us at:
+
+**Email:** hlyaction@gmail.com  
+**Developer:** He Lingyun
 
 ---
-*Last updated: May 2, 2026*
+*Last updated: May 5, 2026*
