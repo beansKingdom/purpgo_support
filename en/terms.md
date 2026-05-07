@@ -1,4 +1,4 @@
-## **PurpGo Terms of Service **
+## PurpGo Terms of Service
 
 **Effective Date :** May 7, 2026
 **Developer :** He Lingyun
