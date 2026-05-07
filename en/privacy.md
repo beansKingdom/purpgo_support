@@ -12,29 +12,29 @@ PurpGo is a personal voice-powered todo management app. We put your privacy firs
 
 ### 1. Information We Collect 
 
-**1.1 Microphone Permission **
+1.1 Microphone Permission
 
 - Used for the voice-to-text feature to help you quickly create tasks.
 - Audio recognition is processed by Apple’s system-level Speech framework. This app does not store or upload any audio files.
 - You can disable this permission anytime in your device’s Settings > Privacy > Microphone.
 
-**1.2 Notification Permission **
+1.2 Notification Permission
 
 - Used to trigger task reminder notifications locally on your device.
 - All reminders are calculated and triggered entirely on your device and are never uploaded to any server.
 
-**1.3 Local Storage **
+1.3 Local Storage
 
 - All your tasks, calendar data, tags, settings, preferences, theme selections, etc., are stored solely on your device.
 - we recommend taking advantage of the security features built into iOS, including but not limited to: setting a strong device passcode, enabling Touch ID or Face ID, and regularly backing up your device via iCloud or iTunes.
 - The developer cannot remotely access, view, or retrieve any of your data.
 
-**1.4 Log Information **
+1.4 Log Information
 
 - The app records run-time logs locally for troubleshooting purposes.
 - Logs are never uploaded automatically. They are sent only when you actively share them via the “Me” page, and only to the recipient you specify or the developer. You may review the log content before deciding to share it.
 
-**1.5 Subscription Information **
+1.5 Subscription Information
 
 - PurpGo Pro subscriptions are processed by the Apple App Store, in accordance with Apple’s privacy policies and payment security standards.
 - The developer receives only an anonymous verification of your subscription status (active/expired). The developer never obtains your name, payment method, credit card number, or specific transaction records.
