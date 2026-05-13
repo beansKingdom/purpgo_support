@@ -4,47 +4,49 @@
 **Developer :** He Lingyun
 **Contact :** hlyaction@gmail.com
 
-### Introduction 
+### Introduction
 
 Welcome to PurpGo (“the App”). This agreement is a legally binding agreement between you (“User”) and He Lingyun (“Developer”) regarding the downloading, installation, and use of the App.
-
 
 **Please read all terms of this agreement carefully. By downloading, installing, or using the App in any way, you acknowledge that you have fully read, understood, and agree to be bound by all terms of this agreement. If you do not agree with any term, do not download, install, or use the App.**
 
 ------
 
-### 1. Service Description 
+### 1. Service Description
 
-1.1 PurpGo is a personal voice-powered todo management tool.
+1.1 PurpGo is a personal voice-powered todo management tool. The App requires a paid download from the App Store, which grants you permanent access to all free features listed in 1.2.
 
-1.2 **Free features include:** 
+1.2 **Free features include:**
 
 - Creating, editing, deleting, and completing tasks
 - Voice quick task creation
 - Task reminders
 - Recurring task settings
-- Basic list view (Overdue / Today / Upcoming /Inbox/ Completed groups)
+- Basic list view (Overdue / Today / Upcoming / Inbox / Completed groups)
 - Basic monthly calendar overview
 - Data export and import
 - Theme switching
 - Tag management
+- Additional free features may be added over time
 
-1.3 **Pro subscription features include but are not limited to:** 
+1.3 **Pro subscription features include but are not limited to:**
 
 - Today View (Kanban board)
 - Calendar Day Detail popup with swipe
 - Strong Reminders
-- Future Pro-only features added later
+- Full monthly calendar editing (create and manage tasks directly in month view)
+- Gantt-style timeline bars for multi-day tasks
+- Future Pro-only features added over time
 
-1.4 The basic features of the App are completely free. Pro features require an in-app purchase subscription through the Apple App Store.
+1.4 The free features listed in 1.2 are permanently available with your App download. Pro features require an in-app purchase subscription through the Apple App Store.
 
 ------
 
-### 2. Subscription & Free Trial Terms 
+### 2. Subscription & Free Trial Terms
 
 2.1 **Subscription Method:** Pro subscriptions are purchased through your Apple ID in the App Store.
 
-2.2 **Free Trial:** New users may enjoy a 7-day local free trial to experience all Pro features, without the need for a subscription. This trial is based on the device’s first install date and does not require payment. After the trial, Pro features will become restricted and require a subscription.
+2.2 **Free Trial:** New users may enjoy a 7-day local free trial to experience all Pro features immediately after downloading the App, without the need for a subscription. This trial is based on the device's first install date and does not require payment. After the trial, Pro features will become restricted and require a subscription.
 
 2.3 **Subscription Period and Renewal:**
 
@@ -52,7 +54,7 @@ Welcome to PurpGo (“the App”). This agreement is a legally binding agreement
 - Apple will automatically charge your account for renewal within 24 hours before the end of the current subscription period.
 - To cancel automatic renewal, please do so in your App Store account settings at least 24 hours before the end of the current period.
 
-2.4 **Refunds:** All payments are processed by Apple. To request a refund, please apply through Apple’s official channels. The Developer has no authority to process refunds on your behalf.
+2.4 **Refunds:** All payments are processed by Apple. To request a refund, please apply through Apple's official channels. The Developer has no authority to process refunds on your behalf.
 
 2.5 **Subscription Expiry:** If a subscription expires without renewal, Pro features will become unavailable. All your data will be unaffected, and free features will continue to function normally.
 
@@ -60,7 +62,7 @@ Welcome to PurpGo (“the App”). This agreement is a legally binding agreement
 
 ------
 
-### 3. Usage Rules 
+### 3. Usage Rules
 
 3.1 You agree to use the App only for personal and lawful purposes. You shall not use the App to engage in any activities that violate applicable laws, compromise network security, or infringe upon the lawful rights of others.
 
@@ -70,17 +72,17 @@ Welcome to PurpGo (“the App”). This agreement is a legally binding agreement
 
 ------
 
-### 4. Account and Data 
+### 4. Account and Data
 
 4.1 The App requires no registration or login. All data is stored locally on your device.
 
-4.2 **Data backup is your responsibility.** The Developer is unable to access, retrieve, or recover your data in any way. It is recommended that you regularly back up data using the app’s export feature and back up your device via iTunes or iCloud.
+4.2 **Data backup is your responsibility.** The Developer is unable to access, retrieve, or recover your data in any way. It is recommended that you regularly back up data using the app's export feature and back up your device via iTunes or iCloud.
 
 4.3 Uninstalling the App will permanently delete all locally stored data, including tasks, settings, and preferences. This action is irreversible.
 
 ------
 
-### 5. Privacy Protection 
+### 5. Privacy Protection
 
 5.1 The App strictly complies with the PurpGo Privacy Policy, which is an integral part of this agreement.
 
@@ -88,7 +90,7 @@ Welcome to PurpGo (“the App”). This agreement is a legally binding agreement
 
 ------
 
-### 6. Intellectual Property Rights 
+### 6. Intellectual Property Rights
 
 6.1 All intellectual property rights related to the App and its entire contents (including but not limited to program code, interface design, icons, text, images, etc.) are owned by the Developer and are protected by applicable laws and regulations.
 
@@ -96,11 +98,11 @@ Welcome to PurpGo (“the App”). This agreement is a legally binding agreement
 
 ------
 
-### 7. Disclaimer 
+### 7. Disclaimer
 
-7.1 The App is provided “as is.” To the fullest extent permitted by law, the Developer makes no warranties, express or implied, regarding the App.
+7.1 The App is provided "as is." To the fullest extent permitted by law, the Developer makes no warranties, express or implied, regarding the App.
 
-7.2 The Developer does not guarantee that the App’s functions will be entirely error-free or uninterrupted. The Developer shall not be liable, within the scope permitted by law, for any service interruption or data loss caused by device malfunction, operating system updates, third-party service interruptions, or other force majeure events.
+7.2 The Developer does not guarantee that the App's functions will be entirely error-free or uninterrupted. The Developer shall not be liable, within the scope permitted by law, for any service interruption or data loss caused by device malfunction, operating system updates, third-party service interruptions, or other force majeure events.
 
 7.3 The task reminder feature may be affected by iOS system background management policies, power-saving modes, Do Not Disturb settings, and other factors. The Developer does not guarantee that reminders will trigger 100% on time under all conditions.
 
@@ -108,7 +110,7 @@ Welcome to PurpGo (“the App”). This agreement is a legally binding agreement
 
 ------
 
-### 8. Agreement Changes 
+### 8. Agreement Changes
 
 8.1 The Developer reserves the right to modify this agreement when necessary. Updated versions will be prominently displayed within the App.
 
@@ -116,15 +118,15 @@ Welcome to PurpGo (“the App”). This agreement is a legally binding agreement
 
 ------
 
-### 9. Governing Law and Dispute Resolution 
+### 9. Governing Law and Dispute Resolution
 
-9.1 This agreement shall be governed by the laws of the Developer’s location.
+9.1 This agreement shall be governed by the laws of the Developer's location.
 
 9.2 Any dispute arising from or in connection with this agreement shall first be resolved through friendly negotiation. If negotiation fails, either party may file a lawsuit with a competent court in the jurisdiction where the Developer is located.
 
 ------
 
-### 10. Contact 
+### 10. Contact
 
 If you have any questions, comments, or suggestions regarding this agreement, please contact us at:
 
